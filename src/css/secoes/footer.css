@@ -1,0 +1,24 @@
+/* FOOTER */
+.footer {
+    margin-top: 7rem;
+    text-align: center;
+    background-color: var(--cor-fundo-cinza-claro);
+}
+
+.footer .container {
+    padding: 5rem 0;
+}
+
+.footer h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-normal);
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.text-footer {
+    background-color: rgb(41, 18, 41);
+    text-align: center;
+    font-weight: 400;
+}

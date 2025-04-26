@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exemplo de portfólio</title>
+ 
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+   
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+  <link rel="stylesheet" href="src/css/secoes/feedbacks.css">
+
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">JG</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+
+          <div class="button">
+          <div class="ball">
+          </div>
+          </div>
+
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá👋🏻! Seja bem vindo(a) a esta página!</p>
+          <h1>Sou Jaqueline Gotardi</h1>
+          <h2>Estudante de ADS e Desenvolvimento Full Stack</h2>
+
+          <div class="redes-sociais">
+            <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/foto1.jpg" alt="minha foto de perfil" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/foto2.jpg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim reveal">
+          <p>
+            <strong>Me chamo Jaqueline, estudante de ADS e Desenvolvimento Full Stack.</strong>
+              Sou natural do interior do Amazonas(AM). Sou extremamente apaixonada pela área de Tecnologia. Para mim, programar vai além de escrever códigos, é dar vida a idéias e soluções, algo que me fascina profundamente🥰! Como toda desenvolvedora em formação, encaro cada desafio como uma oportunidade de aprendizado. Posso não ter todas as respostas de imediato, mas minha perseverança me define: gosto de aprender com os erros, buscar soluções criativas e evoluir constantemente. Detesto ficar travada e estou sempre em movimento, explorando novos caminhos.
+          </p>
+
+          <p> Acredito no poder do trabalho em equipe, na troca de conhecimentos e no impacto que a colaboração pode gerar. Minha curiosidade me move, busco evoluir e aplicar o que sei da melhor forma possível, propondo criar interfaces funcionais, responsivas e agradáveis ao usuário.
+          </p>
+
+          <p>
+            Aaah, sou amante de livros, da escrita, e amante da curiosidade. Se há espaço para crescer, colaborar e construir algo significativo, é exatamente lá que quero estar!🩷 
+
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes reveal">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+        </div>
+
+        <div class="informacoes html reveal">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+        </div>
+
+        <div class="informacoes css reveal">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+        </div>
+
+        <div class="informacoes github reveal">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+        </div>
+
+        <!-- <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+        </div> -->
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Projetos principais</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos reveal">
+        <div class="projeto">        
+          <a href="https://jaqueline-gotardi.github.io/Universe/">
+            <img src="./src/imagens/projetoUniverso.png" alt="Nome do projeto"/>
+            <h3>Projeto 1</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto básico sobre curiosidades do Universo</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://jaqueline-gotardi.github.io/mario-jump/">
+            <img src="./src/imagens/jogoMario.png" alt="Nome do projeto" />
+            <h3>Projeto 2</h3>
+            <div class="informacoes-projeto">          
+              <p>Jogo feito com Html, Css e JavaScript, simples e interativo</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://jaqueline-gotardi.github.io/projeto-moranguinho/">
+            <img src="./src/imagens/projetoCards.png" alt="Nome do projeto" />
+            <h3>Projeto 3</h3>
+            <div class="informacoes-projeto">
+              <p>Cartas interativas que mostram a descrição de cada personagem. Foi usado Html, Css e JavaScript para a sua criação.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="https://jaqueline-gotardi.github.io/estacoes/">
+            <img src="./src/imagens/projetoEstacoes.png" alt="Nome do projeto" />
+            <h3>Projeto 4</h3>
+            <div class="informacoes-projeto">
+              <p>Site que mostra a descrição das estações, com um design suave e leve.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+        <h2 class="titulo-feedback">Feedbacks</h2>
+  <div class="carrossel-feedbacks">
+    <button class="seta esquerda">&#10094;</button>
+
+    <div class="feedback-container">
+      <div class="feedback active">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, quod quia eveniet amet nemo praesentium quidem reiciendis repudiandae minus veritatis</p>
+      <h4>pessoa 1 </h4>
+    </div>
+    <div class="feedback">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusantium at voluptatibus, explicabo fugit temporibus, aperiam voluptatem mollitia praesentium optio quia rem possimus</p>
+      <h4>pessoa 2</h4>
+    </div>
+    <div class="feedback">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repellendus quidem assumenda alias eaque error laboriosam voluptatem molestias nisi maxime! Odio eum, exercitatione</p>
+      <h4>pessoa 3</h4> 
+    </div>
+  </div>
+  <button class="seta direita">&#10095;</button>
+    </div>
+  </section>
+
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!
+        <p></p>(97)984266917</h2>
+      <div class="redes-sociais">
+        <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <footer>
+    <p class="text-footer"><strong>Copyright © </strong>| Projeto de portfólio web criado por Jaqueline Gotardi
+    </p>
+</footer>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

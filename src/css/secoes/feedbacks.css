@@ -1,0 +1,56 @@
+.carrossel-feedbacks{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback-container {
+    display: flex;
+    position: relative;
+    width: 68%;
+    transition: transform 0.5s ease;
+}
+
+.feedback {
+    min-width: 100%;
+    opacity: 0;
+    transition: opacity 2s ease;
+    text-align: center;
+    padding: 20px;
+    background: #795a5a; 
+    color: black;
+}
+
+.feedback:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
+.feedback.active {
+    opacity: 1;
+    position: relative;
+    color: black;
+}
+
+.seta {
+    background: transparent;
+    border: none;
+    color: black;
+    padding: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 2; 
+}
+
+.seta.esquerda {
+    position: absolute;
+    left: 10px;
+}
+
+.seta.direita {
+    position: absolute;
+    right: 10px;
+}
