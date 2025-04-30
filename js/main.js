@@ -22,7 +22,7 @@ document.querySelector('.ball').addEventListener('click', (e)=>{
       } else {
         el.classList.remove('active');
       }
-    }
+    } 
   });     
 
 
@@ -75,17 +75,20 @@ projetos.forEach((projeto) => {
 
 
 
+
   /* CARROSSEL DE FEEDBACKS */
   const feedbacks = document.querySelectorAll('.feedback');
   const btnEsquerda = document.querySelector('.seta.esquerda');
   const btnDireita = document.querySelector('.seta.direita');
 
   let currentIndex = 0;
+  mostrarFeedback(currentIndex);
   let intervalo;
+  let zoomAtivo = true;
 
   function mostrarFeedback(index) {
-    feedbacks.forEach(fb => fb.classList.remove('active'));
-    feedbacks[index].classList.add('active');
+    const offset = -(index * 100);
+    document.querySelector(`.feedback-container`).style.transform = `translateX(${offset}%)`;
   }
 
   function proximoFeedback() {
@@ -107,23 +110,44 @@ projetos.forEach((projeto) => {
     anteriorFeedback();
     reiniciarIntervalo();
   });
-
-  function reiniciarIntervalo() {
+ 
+  function interromperFeedback() {
     clearInterval(intervalo);
-    intervalo = setInterval(proximoFeedback, 2000);
   }
 
-  intervalo (setInterval(proximoFeedback, 1000));
+  function reiniciarFeedback() {
+    clearInterval(intervalo);
+    intervalo = setInterval(proximoFeedback, 1000);
+  }
 
+  intervalo = setInterval(proximoFeedback, 1000);
+
+  function ativarZoomAutomatico() {
+    if (zoomAtivo) {
+      feedbacks.forEach((feedback) => {
+        feedback.classList.remove('auto-zoom');
+      });
+  
+      feedbacks[index].classList.add('auto-zoom');
+  
+      index = (index + 1) % feedbacks.length;
+    }
+  }
+  
+  function ativarZoom() {
+    zoomAtivo = false;
+    clearInterval(intervalo);
+  }
+  
+  function pararZoom() {
+    zoomAtivo = true;
+    intervalo = setInterval(ativarZoomAutomatico, 1000);
+  }
+  
+  intervalo = setInterval(ativarZoomAutomatico, 1000);
+  
     feedbacks.forEach((feedback) => {
-    feedback.addEventListener('mouseenter', interromperFeedback);
-    feedback.addEventListener('mouseleave', retomarFeedback);
+      feedback.addEventListener('mouseenter', interromperFeedback);
+      feedback.addEventListener('mouseleave', reiniciarFeedback);
   }
 );
-
-intervalo (setInterval(proximoFeedback, 1000));
-
-function interromperHover() {
-  hoverAtivo = true;
-  clearInterval(intervalHover);
-}
