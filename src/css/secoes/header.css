@@ -189,6 +189,14 @@
     background-color: rgb(49, 8, 61);
 }
 
+@media (max-width: 424px) {
+    header .button {
+        margin: 0 auto;
+        top: -47px;
+        left: -13vh;
+}
+}
+
 @media(max-width:600px) and (min-width: 550px) { 
     .header .button {
         margin: 0 auto;
