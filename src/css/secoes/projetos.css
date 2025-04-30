@@ -21,7 +21,7 @@
     .projetos .container-projetos {
       padding: 0 var(--mobile-padding);
     } 
-}
+} 
 
 .projetos .container-projetos .projeto {
     border-radius: 5px;
