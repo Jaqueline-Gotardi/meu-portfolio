@@ -17,3 +17,5 @@ Sou estudante de Desenvolvimento Full Stack, apaixonada por criar soluções web
 - CSS3 com animações  
 - JavaScript básico e intermediário  
 - Git e GitHub para controle de versão 
+
+## Como usar este portfólio
