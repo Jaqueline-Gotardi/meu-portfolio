@@ -11,3 +11,5 @@ Sou estudante de Desenvolvimento Full Stack, apaixonada por criar soluções web
 - Demonstrações de responsividade e design adaptativo   
 - Código limpo e organizado, com boas práticas de desenvolvimento 
 - Atualizações frequentes com novos desafios e conquistas
+
+## Tecnologias usadas
