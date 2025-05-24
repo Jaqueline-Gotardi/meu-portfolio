@@ -8,6 +8,6 @@ Sou estudante de Desenvolvimento Full Stack, apaixonada por criar soluções web
 
 ## O que você encontra neste portfólio
 - Projetos reais desenvolvidos com HTML, CSS e JavaScript  
-- Demonstrações de responsividade e design adaptativo (RWD)  
+- Demonstrações de responsividade e design adaptativo   
 - Código limpo e organizado, com boas práticas de desenvolvimento 
 - Atualizações frequentes com novos desafios e conquistas
