@@ -13,3 +13,7 @@ Sou estudante de Desenvolvimento Full Stack, apaixonada por criar soluções web
 - Atualizações frequentes com novos desafios e conquistas
 
 ## Tecnologias usadas
+- HTML5  
+- CSS3 com animações  
+- JavaScript básico e intermediário  
+- Git e GitHub para controle de versão 
