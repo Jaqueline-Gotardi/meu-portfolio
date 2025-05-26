@@ -23,3 +23,7 @@ Explore os projetos clicando nos links, veja o código-fonte no GitHub e confira
 
 ## Aprendizados deste projeto:
 Durante a criação deste portfólio, ampliei minhas habilidades em design responsivo, organização de código e versionamento com Git. Também pratiquei o uso do GitHub Pages para hospedar meus projetos online de uma  forma profissional.
+
+
+
+_Obrigada pela visita! Fique á vontade para entrar em contato :)_
