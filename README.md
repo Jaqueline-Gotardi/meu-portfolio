@@ -2,6 +2,10 @@
 
 Bem-vindo ao meu portfólio pessoal! Aqui você encontra uma apresentação completa dos meus projetos, habilidades e trajetória como desenvolvedora web em formação.
 
+## 🔗 Acesse o Projeto
+
+👉 [Clique aqui para visualizar](https://jaqueline-gotardi.github.io/meu-portfolio/)
+
 ## Sobre mim
 
 Sou estudante de Desenvolvimento Full Stack, apaixonada por criar soluções web práticas, funcionais e visualmente atraentes. Estou em constante aprendizado, focada em front-end e buscando ampliar conhecimentos em back-end.
