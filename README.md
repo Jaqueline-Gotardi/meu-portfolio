@@ -20,3 +20,6 @@ Sou estudante de Desenvolvimento Full Stack, apaixonada por criar soluções web
 
 ## Como usar este portfólio
 Explore os projetos clicando nos links, veja o código-fonte no GitHub e confira minhas habilidades para possíveis oportunidades de estágio ou trabalho remoto.
+
+**Aprendizados deste projeto:** 
+
