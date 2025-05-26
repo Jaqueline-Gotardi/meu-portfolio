@@ -26,7 +26,7 @@ Sou estudante de Desenvolvimento Full Stack, apaixonada por criar soluções web
 Explore os projetos clicando nos links, veja o código-fonte no GitHub e confira minhas habilidades para possíveis oportunidades de estágio ou trabalho remoto.
 
 ## Aprendizados deste projeto:
-Durante a criação deste portfólio, ampliei minhas habilidades em design responsivo, organização de código e versionamento com Git. Também pratiquei o uso do GitHub Pages para hospedar meus projetos online de uma  forma profissional.
+Durante a criação deste portfólio, pratiquei bastante design responsivo, organização de código e versionamento com Git. Também pratiquei o uso do GitHub Pages para hospedar meus projetos online de uma  forma profissional.
  
 ###
 ###
